@@ -20,11 +20,10 @@ def main():
     try:
         _, filename = sys.argv
     except ValueError:
-        print('Error: bad args')
-        print('Usage: words_stat.py filename')
+        sys.stderr.write('Error: bad args')
         return
     if not os.path.exists(filename):
-        print('Error: file %s does not exist' % filename)
+        sys.stderr.write('Error: file %s does not exist' % filename)
         return
     with open(filename, mode='rt') as f:
         text = f.read()
