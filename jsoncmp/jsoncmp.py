@@ -13,6 +13,8 @@ def main():
     """
     (Hello)
 
+    Task: cli script for comparing 2 JSON files.
+
     Some comments:
 
     - We expect 2 JSON docs as input

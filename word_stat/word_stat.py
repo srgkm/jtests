@@ -8,6 +8,8 @@ def main():
     """
     (Hello)
 
+    Task: see name.
+
     Naive implementation:
 
     - We expect utf-8 encoded text files

@@ -12,6 +12,8 @@ def main():
     """
    (Hello)
 
+   Task: cli script for sending images to specified endpoint (IMAGES_ENDPOINT).
+
    Some comments:
 
    - We send images one by one (synchronously and slowly)
